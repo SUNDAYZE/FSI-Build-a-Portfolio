@@ -1,12 +1,13 @@
 body {
-    background-color: rgb(74, 119, 218);
+    background-color: rgb(6, 58, 57);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: grab;
+    color:rgb(255, 255, 255)
 }
 
-h1 {
-    color: rgb(253, 199, 21);
-  }
+  h2 {
+    color: rgb(244, 72, 72);
+}  
 
 #code-image{
 
@@ -28,11 +29,22 @@ text-align: center;
   }
 
   .myImage {
-    float: left;
-    height: 75px;
-    width: 235px;
+    float: center;
+    height: 100px;
+    width: 100px;
     font-family: Veranda;
   }
-  .heading {
-    float:right;
+ 
+  a:link {
+    color: rgb(26, 164, 195);
   }
+  
+  a:visited {
+    color: rgb(242, 47, 102);
+  }
+  
+  a:hover {
+    color: rgb(167, 167, 214);
+  }
+
+  
